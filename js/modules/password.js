@@ -207,7 +207,6 @@
         }));
 
         if (exactBits != null) {
-          detail.appendChild(el('p', { class: 'note', text: 'Picked uniformly at random, so those bits are real, not a guess.' }));
         } else {
           if (result.warning) detail.appendChild(el('p', { class: 'note note-warn', text: result.warning }));
           if (result.sequence.length) {
